@@ -1,1 +1,1 @@
-audio files go here
+please put the .wav audio files here (with same name as videos)
