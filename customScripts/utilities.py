@@ -21,7 +21,7 @@ def compute_0_padded_gt(gt, audio_length):
     for i in range(audio_length):
         padded_gt.append(0)
     for i in range(len(gt)):
-        padded_gt[gt[i]-1] = 1
+        padded_gt[gt[i]] = 1
     return padded_gt
 
 def adjust_gt_to_frames(gt, conversion_const):
